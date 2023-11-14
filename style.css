@@ -1,3 +1,7 @@
 body {
-    background-color: rgb(30, 128, 125);
+    background-color: rgb(34, 230, 224);
+  }
+
+  header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }

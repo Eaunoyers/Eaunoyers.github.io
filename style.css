@@ -2,6 +2,6 @@ body {
     background-color: rgb(34, 230, 224);
   }
 
-  header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  h1 {
+    color: blanchedalmond;
   }

@@ -6,32 +6,45 @@
         <link rel="stylesheet" href="style.css" /> 
     </head>
     <body>
-        <div class="tete">
-            <ul>
-                <li>Code: <input id="inputcode" type="text" oninput="codesub()"></li>
-                <li></li>
-            </ul>
-            <h1>Oli Web</h1>
-        </div>
         
-        <nav class="navbar">
+        
+        <nav class="sidebar">
             <ul>
                 <li><a id="homelink" class="active" href="index.html">Home</a></li>
                 <li><a href="#new">Nouveauté</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">À propos</a></li>
-            </ul>
-
-            
+                <li><a href="#projet">Projets</a></li>
+            </ul> 
         </nav>
 
         <main>
-            <h2>Home</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum minima soluta provident suscipit hic aspernatur! Praesentium, deserunt. Velit, a ab, laudantium voluptates porro consequuntur voluptatem odit quis quaerat error blanditiis!
-                
-            </p>
-            
-            
+            <div class="content">
+
+                <section id="Home">
+                    <h1>Home</h1>
+                    <p>Ceci en la section d'acceuil.</p>
+                </section>
+                <section id="new">
+                    <h1>Nouveauté</h1>
+                </section>
+                <section id="contact">
+                    <h1>Contact</h1>
+                </section>
+                <section id="about">
+                    <h1>À propos</h1>
+                </section>
+                <section id="projet">
+                    <h1>Projets</h1>
+                    <p>Projets en cours de création: </p>
+                    <div class="navbar">
+                        <ul class="columns" data-columns="2">
+                            <li><a href="maude.html">Maude</a></li>
+                            <li><a href="tictactoe/tictactoe.html">Tic Tac Toe</a></li>
+                        </ul> 
+                    </div>
+                </section>
+            </div>
         </main>
     </body>
     <script src="app.js"></script>

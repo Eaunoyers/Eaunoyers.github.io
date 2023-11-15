@@ -5,28 +5,13 @@ body {
 main{
   margin-left: 1%;
 }
-div{
-  text-align: center;
-}
-  .tete{
-    text-align: center;
-  }
-  .tete h1 {
+
+
+  h1 {
     color:indigo;
     text-align: center;
-    
   }
-  .tete ul{
-    list-style: none;
-    padding: 0px;
-    overflow: hidden;
-    text-align: center;
-  }
-  .tete li{
-    float: left;
-    padding: 2%;
-    text-align: center;
-  }
+
   .navbar ul{
     list-style: none;
     background-color: hsl(0, 0%, 25%);

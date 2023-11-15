@@ -6,11 +6,16 @@
         <link rel="stylesheet" href="style.css" /> 
     </head>
     <body>
-        <ul><input type="password" onsubmit="codesub(self)">Code</ul>
-        <h1>Oli Web</h1>
+        <div class="tete">
+            <ul>
+                <li>Code: <input id="inputcode" type="text" oninput="codesub()"></li>
+                <li><h1>Oli Web</h1></li>
+            </ul>
+        </div>
+        
         <nav class="navbar">
             <ul>
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a id="homelink" class="active" href="index.html">Home</a></li>
                 <li><a href="#new">Nouveauté</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">À propos</a></li>
